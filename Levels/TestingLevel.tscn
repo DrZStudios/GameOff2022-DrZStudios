@@ -1,3 +1,66 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Blocks.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
 
 [node name="TestingLevel" type="Node2D"]
+
+[node name="Blocks" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0, 176 )
+
+[node name="Blocks2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 16, 176 )
+
+[node name="Blocks3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 176 )
+
+[node name="Blocks4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 176 )
+
+[node name="Blocks5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 48, 160 )
+
+[node name="Blocks6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 160 )
+
+[node name="Blocks7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 176 )
+
+[node name="Blocks8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 80, 176 )
+
+[node name="Blocks9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 176 )
+
+[node name="Blocks10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 176 )
+
+[node name="Blocks11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 160 )
+
+[node name="Blocks12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 144 )
+
+[node name="Blocks13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 144 )
+
+[node name="Blocks14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 160 )
+
+[node name="Blocks15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 128, 176 )
+
+[node name="Blocks16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 176 )
+
+[node name="Blocks17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 176 )
+
+[node name="Blocks18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 176, 176 )
+
+[node name="Blocks19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 176 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 54, 26 )

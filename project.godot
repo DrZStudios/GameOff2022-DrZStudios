@@ -11,7 +11,17 @@ config_version=4
 [application]
 
 config/name="Game Off 2022- Dr Z Studios"
+run/main_scene="res://Levels/TestingLevel.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=320
+window/size/height=180
+window/size/test_width=640
+window/size/test_height=360
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [gui]
 
