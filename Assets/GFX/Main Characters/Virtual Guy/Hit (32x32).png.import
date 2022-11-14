@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/Hit (32x32).png-1f9e95ed9e9c26fc807d9d139ca804fb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
+source_file="res://Assets/GFX/Main Characters/Virtual Guy/Hit (32x32).png"
+dest_files=[ "res://.import/Hit (32x32).png-1f9e95ed9e9c26fc807d9d139ca804fb.stex" ]
 
 [params]
 

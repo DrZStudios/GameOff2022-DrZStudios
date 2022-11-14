@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/Off.png-41397b3315742ae1749b180f8f05a62e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
+source_file="res://Assets/GFX/Traps/Fan/Off.png"
+dest_files=[ "res://.import/Off.png-41397b3315742ae1749b180f8f05a62e.stex" ]
 
 [params]
 

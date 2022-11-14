@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/Appearing (96x96).png-53f4018d9b79e856a152e90011651365.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
+source_file="res://Assets/GFX/Main Characters/Appearing (96x96).png"
+dest_files=[ "res://.import/Appearing (96x96).png-53f4018d9b79e856a152e90011651365.stex" ]
 
 [params]
 

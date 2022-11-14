@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/Hit (32x32).png-a1ab409b4287efdbc7ac1920f239ad08.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
+source_file="res://Assets/GFX/Main Characters/Pink Man/Hit (32x32).png"
+dest_files=[ "res://.import/Hit (32x32).png-a1ab409b4287efdbc7ac1920f239ad08.stex" ]
 
 [params]
 

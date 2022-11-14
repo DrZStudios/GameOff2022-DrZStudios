@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/Leaderboard.png-6249e26eb740d4989454a1503487e517.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
+source_file="res://Assets/GFX/Menu/Buttons/Leaderboard.png"
+dest_files=[ "res://.import/Leaderboard.png-6249e26eb740d4989454a1503487e517.stex" ]
 
 [params]
 

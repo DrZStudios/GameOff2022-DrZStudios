@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex"
+path="res://.import/Right Hit (54x52).png-c87b4ece71dfb9e2d0dd43d016be2876.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon.png"
-dest_files=[ "res://.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex" ]
+source_file="res://Assets/GFX/Traps/Spike Head/Right Hit (54x52).png"
+dest_files=[ "res://.import/Right Hit (54x52).png-c87b4ece71dfb9e2d0dd43d016be2876.stex" ]
 
 [params]
 
