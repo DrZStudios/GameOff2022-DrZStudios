@@ -10,7 +10,7 @@ export (int)var minJumpHeight = 40
 var velocity = Vector2.ZERO
 var bfastFall = false
 
-
+onready var animSpritePlayer = $AnimatedSprite
 
 func _ready():
 	pass # Replace with function body.
@@ -23,14 +23,21 @@ func _physics_process(delta):
 	
 	if input.x == 0:
 		apply_friction()
+		animSpritePlayer.animation = "Idle"
 	else:
 		apply_acceleration(input.x)
+		animSpritePlayer.animation = "Run"
+		if input.x >0:
+			animSpritePlayer.flip_h = false
+		elif input.x <0:
+			animSpritePlayer.flip_h = true
 	
 	if is_on_floor():
 		bfastFall = false
 		if Input.is_action_just_pressed("ui_up"):
 			velocity.y = -jumpHeight
 	else:
+		animSpritePlayer.animation = "Jump"
 		if Input.is_action_just_released("ui_up") and velocity.y < -minJumpHeight:
 			velocity.y = -minJumpHeight
 	
